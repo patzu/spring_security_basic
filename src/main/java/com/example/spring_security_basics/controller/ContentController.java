@@ -23,11 +23,11 @@ public class ContentController {
 
     @GetMapping("/admin/home")
     public String adminHome() {
-        return "adminHome";
+        return "adminhome";
     }
 
     @GetMapping("/user/home")
     public String userHome() {
-        return "userHome";
+        return "userhome";
     }
 }
