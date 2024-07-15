@@ -41,6 +41,8 @@ public class SecurityConfiguration {
                 .csrf(AbstractHttpConfigurer::disable).build();
     }
 
+    //  In memory database for user manager
+
 //    @Bean
 //    public UserDetailsService userDetailsService() {
 //        UserDetails normalUser = User
